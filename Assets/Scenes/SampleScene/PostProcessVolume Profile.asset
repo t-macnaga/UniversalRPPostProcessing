@@ -37,30 +37,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 4785070843697141198}
-  - {fileID: 1203570371663847297}
---- !u!114 &1203570371663847297
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41e2a8f77a0c7584ba7d3ebb866b3329, type: 3}
-  m_Name: ZoomBlur
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  focusPower:
-    m_OverrideState: 1
-    m_Value: 15.04
-  focusDetail:
-    m_OverrideState: 1
-    m_Value: 5
-  focusScreenPosition:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0}
+  - {fileID: 6199296448123597559}
 --- !u!114 &4785070843697141198
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -108,3 +85,26 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
     min: 0
+--- !u!114 &6199296448123597559
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e2a8f77a0c7584ba7d3ebb866b3329, type: 3}
+  m_Name: ZoomBlur
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  focusPower:
+    m_OverrideState: 1
+    m_Value: 36.9
+  focusDetail:
+    m_OverrideState: 1
+    m_Value: 5
+  focusScreenPosition:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}

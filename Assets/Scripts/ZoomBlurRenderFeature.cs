@@ -50,6 +50,8 @@ public class ZoomBlurPass : ScriptableRenderPass
             return;
         }
 
+        if (!renderingData.cameraData.postProcessEnabled) return;
+
         var stack = VolumeManager.instance.stack;
         zoomBlur = stack.GetComponent<ZoomBlur>();
         if (zoomBlur == null) { return; }
