@@ -1,0 +1,12 @@
+.vs/
+Library
+Temp
+Logs
+*.sln
+*.userprefs
+*.csproj
+*.unityproj
+obj
+launch.json
+settings.json
+*.apk

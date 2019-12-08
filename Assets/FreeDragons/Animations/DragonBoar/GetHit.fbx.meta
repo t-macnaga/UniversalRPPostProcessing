@@ -1,0 +1,279 @@
+fileFormatVersion: 2
+guid: b4c53a0d61354f943a98448f95b52c30
+timeCreated: 1483577375
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Chest
+    100002: DragonBoar
+    100004: //RootNode
+    100006: Head
+    100008: Jaw1
+    100010: Jaw2
+    100012: Jaw3
+    100014: joint5
+    100016: joint6
+    100018: joint7
+    100020: joint8
+    100022: L_Feet
+    100024: L_Fingers
+    100026: L_Hand
+    100028: L_Horn1
+    100030: L_Horn2
+    100032: L_LowerArm
+    100034: L_LowerEye
+    100036: L_LowerLeg
+    100038: L_Toes
+    100040: L_UpperArm
+    100042: L_UpperEye
+    100044: L_UpperLeg
+    100046: R_Feet
+    100048: R_Fingers
+    100050: R_Hand
+    100052: R_Horn1
+    100054: R_Horn2
+    100056: R_LowerEye
+    100058: R_RowerArm
+    100060: R_RowerReg
+    100062: R_Toes
+    100064: R_UpperArm
+    100066: R_UpperEye
+    100068: R_UpperReg
+    100070: Root
+    100072: Root_CTRL
+    100074: Spine1
+    100076: Tongue1
+    100078: Tongue2
+    100080: Tongue3
+    100082: UpperMouth1
+    100084: UpperMouth2
+    400000: Chest
+    400002: DragonBoar
+    400004: //RootNode
+    400006: Head
+    400008: Jaw1
+    400010: Jaw2
+    400012: Jaw3
+    400014: joint5
+    400016: joint6
+    400018: joint7
+    400020: joint8
+    400022: L_Feet
+    400024: L_Fingers
+    400026: L_Hand
+    400028: L_Horn1
+    400030: L_Horn2
+    400032: L_LowerArm
+    400034: L_LowerEye
+    400036: L_LowerLeg
+    400038: L_Toes
+    400040: L_UpperArm
+    400042: L_UpperEye
+    400044: L_UpperLeg
+    400046: R_Feet
+    400048: R_Fingers
+    400050: R_Hand
+    400052: R_Horn1
+    400054: R_Horn2
+    400056: R_LowerEye
+    400058: R_RowerArm
+    400060: R_RowerReg
+    400062: R_Toes
+    400064: R_UpperArm
+    400066: R_UpperEye
+    400068: R_UpperReg
+    400070: Root
+    400072: Root_CTRL
+    400074: Spine1
+    400076: Tongue1
+    400078: Tongue2
+    400080: Tongue3
+    400082: UpperMouth1
+    400084: UpperMouth2
+    4300000: DragonBoar
+    7400000: Get Hit
+    9500000: //RootNode
+    13700000: DragonBoar
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Get Hit
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DragonBoar
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint5
+        weight: 1
+      - path: Root/joint5/joint6
+        weight: 1
+      - path: Root/joint5/joint6/joint7
+        weight: 1
+      - path: Root/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: Root/L_UpperLeg
+        weight: 1
+      - path: Root/L_UpperLeg/L_LowerLeg
+        weight: 1
+      - path: Root/L_UpperLeg/L_LowerLeg/L_Feet
+        weight: 1
+      - path: Root/L_UpperLeg/L_LowerLeg/L_Feet/L_Toes
+        weight: 1
+      - path: Root/R_UpperReg
+        weight: 1
+      - path: Root/R_UpperReg/R_RowerReg
+        weight: 1
+      - path: Root/R_UpperReg/R_RowerReg/R_Feet
+        weight: 1
+      - path: Root/R_UpperReg/R_RowerReg/R_Feet/R_Toes
+        weight: 1
+      - path: Root/Spine1
+        weight: 1
+      - path: Root/Spine1/Chest
+        weight: 1
+      - path: Root/Spine1/Chest/Head
+        weight: 1
+      - path: Root/Spine1/Chest/Head/Jaw1
+        weight: 1
+      - path: Root/Spine1/Chest/Head/Jaw1/Jaw2
+        weight: 1
+      - path: Root/Spine1/Chest/Head/Jaw1/Jaw2/Jaw3
+        weight: 1
+      - path: Root/Spine1/Chest/Head/L_Horn1
+        weight: 1
+      - path: Root/Spine1/Chest/Head/L_Horn1/L_Horn2
+        weight: 1
+      - path: Root/Spine1/Chest/Head/R_Horn1
+        weight: 1
+      - path: Root/Spine1/Chest/Head/R_Horn1/R_Horn2
+        weight: 1
+      - path: Root/Spine1/Chest/Head/Tongue1
+        weight: 1
+      - path: Root/Spine1/Chest/Head/Tongue1/Tongue2
+        weight: 1
+      - path: Root/Spine1/Chest/Head/Tongue1/Tongue2/Tongue3
+        weight: 1
+      - path: Root/Spine1/Chest/Head/UpperMouth1
+        weight: 1
+      - path: Root/Spine1/Chest/Head/UpperMouth1/L_LowerEye
+        weight: 1
+      - path: Root/Spine1/Chest/Head/UpperMouth1/L_UpperEye
+        weight: 1
+      - path: Root/Spine1/Chest/Head/UpperMouth1/R_LowerEye
+        weight: 1
+      - path: Root/Spine1/Chest/Head/UpperMouth1/R_UpperEye
+        weight: 1
+      - path: Root/Spine1/Chest/Head/UpperMouth1/UpperMouth2
+        weight: 1
+      - path: Root/Spine1/Chest/L_UpperArm
+        weight: 1
+      - path: Root/Spine1/Chest/L_UpperArm/L_LowerArm
+        weight: 1
+      - path: Root/Spine1/Chest/L_UpperArm/L_LowerArm/L_Hand
+        weight: 1
+      - path: Root/Spine1/Chest/L_UpperArm/L_LowerArm/L_Hand/L_Fingers
+        weight: 1
+      - path: Root/Spine1/Chest/R_UpperArm
+        weight: 1
+      - path: Root/Spine1/Chest/R_UpperArm/R_RowerArm
+        weight: 1
+      - path: Root/Spine1/Chest/R_UpperArm/R_RowerArm/R_Hand
+        weight: 1
+      - path: Root/Spine1/Chest/R_UpperArm/R_RowerArm/R_Hand/R_Fingers
+        weight: 1
+      - path: Root_CTRL
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
