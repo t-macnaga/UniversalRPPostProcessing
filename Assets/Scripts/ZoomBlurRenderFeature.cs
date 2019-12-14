@@ -55,8 +55,7 @@ public class ZoomBlurPass : ScriptableRenderPass
         var stack = VolumeManager.instance.stack;
         zoomBlur = stack.GetComponent<ZoomBlur>();
         if (zoomBlur == null) { return; }
-        //TODO: not working?? active is always return true...
-        if (!zoomBlur.active) { return; }
+        if (!zoomBlur.IsActive()) { return; }
 
         var cmd = CommandBufferPool.Get(k_RenderTag);
         Render(cmd, ref renderingData);
