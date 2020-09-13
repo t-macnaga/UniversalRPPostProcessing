@@ -9,3 +9,6 @@
 # Features
 - Custom post process using ScriptableRenderFeature in UniversalRP.
 - Added timeline post process track.
+
+# Effect List
+- ZoomBlur
