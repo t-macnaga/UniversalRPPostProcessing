@@ -18,8 +18,9 @@
                 sampler2D _MainTex;
                 float2 _FocusScreenPosition;
                 float _FocusPower;
-                 int _FocusDetail;
-            
+                int _FocusDetail;
+                int _ReferenceResolutionX;
+
                 struct appdata
                 {
                     float4 vertex : POSITION;
@@ -46,9 +47,10 @@
                     float2 uv = i.uv;
                     float2 mousePos = (screenPoint.xy / _ScreenParams.xy);
                     float2 focus = uv - mousePos;
+                    fixed aspectX = _ScreenParams.x/_ReferenceResolutionX;
                     float4 outColor = float4(0, 0, 0, 1);
                     for (int i=0; i<_FocusDetail; i++) {
-                        float power = 1.0 - _FocusPower * (1.0/_ScreenParams.x) * float(i);
+                        float power = 1.0 - _FocusPower * (1.0/_ScreenParams.x * aspectX) * float(i);
                         outColor.rgb += tex2D(_MainTex , focus * power + mousePos).rgb;
                     }
                     outColor.rgb *= 1.0 / float(_FocusDetail);

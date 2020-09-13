@@ -13,6 +13,9 @@ public class ZoomBlur : VolumeComponent, IPostProcessComponent
     [Tooltip("ブラーの中心座標。スクリーンの中心を(0,0)としています。")]
     public Vector2Parameter focusScreenPosition = new Vector2Parameter(Vector2.zero);
 
+    [Tooltip("基準となる横幅解像度です。")]
+    public IntParameter referenceResolutionX = new IntParameter(1334);
+
     public bool IsActive() => focusPower.value > 0f;
 
     public bool IsTileCompatible() => false;

@@ -26,6 +26,7 @@ public class ZoomBlurPass : ScriptableRenderPass
     static readonly int FocusPowerId = Shader.PropertyToID("_FocusPower");
     static readonly int FocusDetailId = Shader.PropertyToID("_FocusDetail");
     static readonly int FocusScreenPositionId = Shader.PropertyToID("_FocusScreenPosition");
+    static readonly int ReferenceResolutionXId = Shader.PropertyToID("_ReferenceResolutionX");
     ZoomBlur zoomBlur;
     Material zoomBlurMaterial;
     RenderTargetIdentifier currentTarget;
@@ -79,6 +80,7 @@ public class ZoomBlurPass : ScriptableRenderPass
         zoomBlurMaterial.SetFloat(FocusPowerId, zoomBlur.focusPower.value);
         zoomBlurMaterial.SetInt(FocusDetailId, zoomBlur.focusDetail.value);
         zoomBlurMaterial.SetVector(FocusScreenPositionId, zoomBlur.focusScreenPosition.value);
+        zoomBlurMaterial.SetInt(ReferenceResolutionXId, zoomBlur.referenceResolutionX.value);
 
         int shaderPass = 0;
         cmd.SetGlobalTexture(MainTexId, source);

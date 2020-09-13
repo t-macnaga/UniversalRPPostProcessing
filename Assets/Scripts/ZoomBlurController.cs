@@ -9,6 +9,7 @@ public class ZoomBlurController : MonoBehaviour
     public float focusPower = 10f;
     [Range(0, 10)]
     public int focusDetail = 5;
+    public int referenceResolutionX = 1334;
     public Vector2 focusScreenPosition = Vector2.zero;
     ZoomBlur zoomBlur;
 
@@ -21,5 +22,6 @@ public class ZoomBlurController : MonoBehaviour
         zoomBlur.focusPower.value = focusPower;
         zoomBlur.focusDetail.value = focusDetail;
         zoomBlur.focusScreenPosition.value = focusScreenPosition;
+        zoomBlur.referenceResolutionX.value = referenceResolutionX;
     }
 }
