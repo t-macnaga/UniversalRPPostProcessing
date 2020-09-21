@@ -16,7 +16,7 @@ public class PostProcessBehaviour : PlayableBehaviour
     {
         if (profile != null)
         {
-            QuickVolume(this);
+            QuickVolume();
         }
     }
 
@@ -28,18 +28,18 @@ public class PostProcessBehaviour : PlayableBehaviour
         }
     }
 
-    void QuickVolume(PostProcessBehaviour behaviour)
+    void QuickVolume()
     {
         if (volume == null)
         {
             volume = new GameObject().AddComponent<Volume>();
             volume.gameObject.layer = layer;
             volume.gameObject.hideFlags = HideFlags.DontSave | HideFlags.NotEditable;
-            volume.gameObject.name = $"PostProcessBehaviourVolume [Profile {behaviour.profile.name}]";
+            volume.gameObject.name = $"PostProcessBehaviourVolume [Profile {profile.name}]";
             volume.weight = 0;
             volume.priority = 1;
             volume.isGlobal = true;
-            volume.profile = behaviour.profile;
+            volume.profile = profile;
         }
     }
 
